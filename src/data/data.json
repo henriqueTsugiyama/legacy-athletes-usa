@@ -1,17 +1,18 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Legacy Athletes USA",
+        "paragraph": "As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics. PLAY YOUR LEGACY !"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Either if you couldn’t be a professional sports player or if you have the dream to experience the best college-athlete experience.  Our main goal is to be a mediator for the athletes seeking opportunities to obtain athletic scholarships for a better education and career path. Legacy guides you step by step making an easier and more organized process of finding the right college fit.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "We are experienced college athletes ",
+            "We have more than 200 direct connections with college coaches.",
+            "We are passionate about the college life",
+            "We have the tools and resources to find you the best scholarship posible",
+            "Knowledge in every college leagues NCAA, NAIA ,NJCAA "
         ],
         "Why2": [
             "Aliquip ex ea commodo",
@@ -107,30 +108,26 @@
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "email": "Legacyusathletes@gmail.com",
+        "facebook": "https://www.facebook.com/legacyusathletes/?ref=py_c",
+        "instagram": "https://www.instagram.com/legacyusathletes/",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Recruiting",
+            "text": "200 direct connections with college coaches in the three main college leagues"
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Athletic Network",
+            "text": "Intermediary between coaches and prospective athletes."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-comments-o",
+            "title": "Long-term support",
+            "text": "Full support from the beginning to the end of the process. Plus follow up until you graduate"
         }
     ]
 }

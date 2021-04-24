@@ -1122,7 +1122,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 460px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1609,6 +1609,10 @@ pre code {
   margin-left: auto;
 }
 .row {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  justify-content: space-around;
   margin-right: -15px;
   margin-left: -15px;
 }
