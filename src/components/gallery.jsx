@@ -20,7 +20,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>Baseball</h4>
                     </div>
                     <img
                       src='img/portfolio-legacy/baseball.JPG'
@@ -41,7 +41,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4> Men's Soccer</h4>
                     </div>
                     <img
                       src='img/portfolio-legacy/champs.JPG'
@@ -62,7 +62,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>Practice field</h4>
                     </div>
                     <img
                       src='img/portfolio-legacy/wonder-legacy.JPG'
@@ -146,7 +146,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h4>Women's Soccer</h4>
                     </div>
                     <img
                       src='img/portfolio-legacy/soccer-celebration.JPG'
@@ -167,7 +167,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>Volleyball</h4>
                     </div>
                     <img
                       src='img/portfolio-legacy/volleyball.JPG'
@@ -183,15 +183,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio-legacy/soccer-celebration.JPG'
+                    href='img/portfolio-legacy/owls-tennis.JPG'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>Owls conference champions</h4>
                     </div>
                     <img
-                      src='img/portfolio-legacy/soccer-celebration.JPG'
+                      src='img/portfolio-legacy/owls-tennis.JPG'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}

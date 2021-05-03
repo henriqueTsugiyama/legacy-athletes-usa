@@ -3,11 +3,11 @@ export const About = (props) => {
     <div id='about'>
       <div className='container'>
         <div className='row'>
-          {/* <div className='col-xs-12 col-md-6'>
+          <div className='col-xs-12 col-md-4' className='img-display'>
             {' '}
-            <img src='img/portfolio-legacy/graduation.JPG' className='img-responsive' alt='' />{' '}
-          </div> */}
-          <div className='col-xs-12 col-md-10'>
+            <img src='img/portfolio-legacy/graduation-man.JPG' className='img-responsive' alt='' />{' '}
+          </div>
+          <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
@@ -22,15 +22,15 @@ export const About = (props) => {
                       : 'loading'}
                   </ul>
                 </div>
-                <div className='col-lg-6 col-sm-6 col-xs-12'>
-                  {/* <ul>
+                {/* <div className='col-lg-6 col-sm-6 col-xs-12'>
+                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
                       : 'loading'}
-                  </ul> */}
-                </div>
+                  </ul> 
+                </div> */}
               </div>
             </div>
           </div>

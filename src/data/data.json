@@ -1,15 +1,15 @@
 {
     "Header": {
 
-        "title": "Legacy Athletes USA",
-        "paragraph": "As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics. PLAY YOUR LEGACY !"
+        "title": "PLAY YOUR LEGACY !",
+        "paragraph": "As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics."
 
     },
     "About": {
         "paragraph": "Either if you couldn’t be a professional sports player or if you have the dream to experience the best college-athlete experience.  Our main goal is to be a mediator for the athletes seeking opportunities to obtain athletic scholarships for a better education and career path. Legacy guides you step by step making an easier and more organized process of finding the right college fit.",
         "Why": [
             "We are experienced college athletes ",
-            "We have more than 200 direct connections with college coaches.",
+            "We have more than 200+ direct connections with college coaches.",
             "We are passionate about the college life",
             "We have the tools and resources to find you the best scholarship posible",
             "Knowledge in every college leagues NCAA, NAIA ,NJCAA "
@@ -117,17 +117,17 @@
     "Features": [{
             "icon": "fa fa-bullhorn",
             "title": "Recruiting",
-            "text": "200 direct connections with college coaches in the three main college leagues"
+            "text": "200+ direct connections with college coaches in the three main college leagues (NCAA, NAIA, NJCAA)."
         },
         {
             "icon": "fa fa-group",
             "title": "Athletic Network",
-            "text": "Intermediary between coaches and prospective athletes."
+            "text": "Insights into the college sports industry."
         },
         {
             "icon": "fa fa-comments-o",
             "title": "Long-term support",
-            "text": "Full support from the beginning to the end of the process. Plus follow up until you graduate"
+            "text": "Important knowledge inside college leagues."
         }
     ]
 }
