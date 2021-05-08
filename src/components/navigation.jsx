@@ -1,4 +1,15 @@
+import { useEffect, useState } from 'react';
+import { ToggleButton } from '../reusableComponents/ToggleButton'
 export const Navigation = (props) => {
+
+  const [selected, toggleSelected ] = useState(false)
+  localStorage.setItem('lang', 'pt')
+  const lang = localStorage.getItem('lang')
+
+  useEffect(()=>{
+    console.log(lang)
+  }, [])
+  
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -18,6 +29,7 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
             Legacy Athletes USA
           </a>{' '}
+          
         </div>
 
         <div
@@ -25,6 +37,13 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
+            <li>
+              <ToggleButton 
+              selected={selected} 
+              toggleSelected={()=> toggleSelected(!selected)} 
+              />
+            </li>
+            
             <li>
               <a href='#features' className='page-scroll'>
                 Services
