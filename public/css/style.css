@@ -81,6 +81,10 @@ hr {
 	color: #e0e0e0;
 	text-transform: uppercase;
 }
+#menu.navbar-default .navbar-nav {
+	display: flex;
+	align-items: flex-end;
+}
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
@@ -105,6 +109,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
@@ -186,8 +191,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding-top: 0;
-	margin-top: 20px;
-	background: url(../img/background-header-new.png) center center no-repeat;
+	/* margin-top: 20px; */
+	background: url(../img/stadium-backgound.JPG) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -195,10 +200,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: url(../img/background-header-new.png) center no-repeat;
+	background: rgba(41, 58, 61, 0.700);
 	background-size: cover;
-	padding-top: 10%;
-	margin-top: 5%;
+	/* padding-top: 10%;
+	margin-top: 5%; */
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
