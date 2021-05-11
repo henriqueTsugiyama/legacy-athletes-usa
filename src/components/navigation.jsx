@@ -1,15 +1,24 @@
 import { useEffect, useState } from 'react';
 import { ToggleButton } from '../reusableComponents/ToggleButton'
+
 export const Navigation = (props) => {
 
   const [selected, toggleSelected ] = useState(false)
-  localStorage.setItem('lang', 'pt')
-  const lang = localStorage.getItem('lang')
-
+  const lang = localStorage.getItem('lang');
   useEffect(()=>{
-    console.log(lang)
+    localStorage.setItem('lang','en');
   }, [])
   
+  function handleToggle(){
+    toggleSelected(!selected)
+    console.log(props.data)
+
+    if (lang == 'en'){
+      return localStorage.setItem('lang', 'spa');
+    }
+    return localStorage.setItem('lang', 'en');
+  }
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -39,8 +48,8 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <ToggleButton 
-              selected={selected} 
-              toggleSelected={()=> toggleSelected(!selected)} 
+              selected={lang} 
+              toggleSelected={()=> handleToggle()} 
               />
             </li>
             

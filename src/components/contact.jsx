@@ -14,6 +14,7 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
   const clearState = () => setState({ ...initialState })
+  const lang = localStorage.getItem('lang');
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -39,10 +40,15 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>{lang !== 'en' ? "Contáctenos" : "Get in touch"}</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  { lang !== 'en' ? 
+                  "Complete el formulario al lado para guardarmos su correo electrónico y nos pondremos en contacto con usted lo antes posible."
+                  : 
+                  "Please fill out the form below to send us an email and we will get back to you as soon as possible." 
+                }
+                  
+                  
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -90,14 +96,14 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  { lang !== 'en' ? "Enviar" : "Send Message"}
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>{ lang !== 'en' ? "Informaciones de contacto" : "Contact Info"}</h3>
               {/* <p>
                 <span>
                   <i className='fa fa-map-marker'></i> Address
@@ -116,7 +122,8 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> 
+                  {lang !== 'en' ? "Correo eletrónico" : "Email"}
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>

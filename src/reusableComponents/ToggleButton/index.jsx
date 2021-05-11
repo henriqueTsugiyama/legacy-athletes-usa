@@ -8,8 +8,8 @@ export const ToggleButton = ({selected, toggleSelected}) => {
         className="toggle-container"
         onClick={toggleSelected}
         >
-            <div className={`dialog-button ${selected ? "" : "disabled"}`}> 
-                {selected ? "Spanish": "English"}
+            <div className={`dialog-button ${selected == 'spa' ? "" : "disabled"}`}> 
+                {selected == 'en'? "English": "Spanish"}
             </div>
             
         </div>
