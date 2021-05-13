@@ -1,22 +1,25 @@
 import { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { ToggleButton } from '../reusableComponents/ToggleButton'
-
+import { switchLangReq } from '../../src/store/modules/lang/actions'
 export const Navigation = (props) => {
 
-  const [selected, toggleSelected ] = useState(false)
-  const lang = localStorage.getItem('lang');
+  const [selected, toggleSelected ] = useState(false);
+  const { langReducer } = useSelector(state => state);
+  const dispatch = useDispatch();
+
   useEffect(()=>{
-    localStorage.setItem('lang','en');
+    console.log(props.data)
+
   }, [])
   
   function handleToggle(){
     toggleSelected(!selected)
-    console.log(props.data)
-
-    if (lang == 'en'){
-      return localStorage.setItem('lang', 'spa');
+    
+    if (langReducer.lang == 'en'){
+      return dispatch(switchLangReq('spa'));
     }
-    return localStorage.setItem('lang', 'en');
+    return dispatch(switchLangReq('en'));
   }
 
   return (
@@ -48,19 +51,21 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <ToggleButton 
-              selected={lang} 
-              toggleSelected={()=> handleToggle()} 
+              selected={langReducer.lang} 
+              toggleSelected={()=> {
+                handleToggle()
+              }}
               />
             </li>
             
             <li>
               <a href='#features' className='page-scroll'>
-                Services
+                {props.data.services}
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+              {props.data.about}
               </a>
             </li>
             {/* <li>
@@ -70,7 +75,7 @@ export const Navigation = (props) => {
             </li> */}
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                {props.data.gallery}
               </a>
             </li>
             {/* <li>
@@ -85,7 +90,7 @@ export const Navigation = (props) => {
             </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                {props.data.contact}
               </a>
             </li>
           </ul>

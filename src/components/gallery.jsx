@@ -1,12 +1,12 @@
 export const Gallery = (props) => {
-  const lang = localStorage.getItem('lang');
+ 
   return (
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>{ lang !== 'en' ? "Galeria" : "Gallery"}</h2>
+          <h2>{props.data.Navigation.gallery}</h2>
           <p>
-            {lang !== 'en' ? "Un poquito do que le puede passar en la vida universitaria." : "Here is a taste of what college life can look like in US."}
+            {props.data.Gallery.description}
           </p>
         </div>
         <div className='row'>

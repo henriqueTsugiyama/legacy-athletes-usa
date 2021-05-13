@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
@@ -9,8 +10,6 @@ import { Testimonials } from './components/testimonials'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import { Questionnaire } from './components/Questionnaire'
-import englishData from './data/en_data.json'
-import spanishData from './data/spa_data.json'
 import SmoothScroll from 'smooth-scroll'
 import { useMessages } from './translations/';
 
@@ -22,27 +21,25 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
-  let lang = localStorage.getItem('lang');
+  const lang = useSelector(state => state);
   const { getMessage } = useMessages();
-
-  
+  const messages = getMessage();
   useEffect(() => {
-    setLandingPageData(getMessage());
-    
+    console.log(messages)
   }, [lang])
 
   return (
     <div>
-      <Navigation data={landingPageData.Header} />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <Questionnaire />
-      <About data={landingPageData.About} />
-      {/* <Services data={landingPageData.Services} /> */}
-      <Gallery />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      <Navigation data={messages.Navigation} />
+      <Header data={messages.Header} />
+      <Features data={messages} />
+      {/* <Questionnaire /> */}
+      <About data={messages.About} />
+      {/* <Services data={messages.Services} /> */}
+      <Gallery data={messages} />
+      {/* <Testimonials data={messages.Testimonials} /> */}
+      {/* <Team data={messages.Team} /> */}
+      <Contact data={messages.Contact} />
     </div>
   )
 }

@@ -1,12 +1,23 @@
 export default {
+    Navigation: {
+        services: "Services",
+        about: "About",
+        gallery: "Gallery",
+        contact: "Contact"
+    },
     Header: {
 
         title: "PLAY YOUR LEGACY!",
-        paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics."
+        paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
+        learnMore: "Learn more"
 
     },
+    
     About: {
-        paragraph: "Either if you couldn’t be a professional sports player or if you have the dream to experience the best college-athlete experience.  Our main goal is to be a mediator for the athletes seeking opportunities to obtain athletic scholarships for a better education and career path. Legacy guides you step by step making an easier and more organized process of finding the right college fit.",
+        heading: "About us",
+        heading2: "Why choose us",
+        paragraph: "Either if you couldn’t be a professional sports player or if you have the dream to experience the best college-athlete experience.  Our main goal is to be a mediator for the athletes seeking opportunities to obtain athletic scholarships for a better education and career path. Legacy guides you step by step making an easier and more organized process of finding the right college fit. ", 
+        
         Why: [
             "We are experienced college athletes.",
             "We have more than 200+ direct connections with college coaches.",
@@ -19,7 +30,11 @@ export default {
             "Lorem ipsum dolor",
             "Exercitation ullamco",
             "Lorem ipsum dolor"
-        ]
+        ],
+    },
+
+    Gallery: {
+        description: "Here is a taste of what college life can look like in US.",
     },
     Services: [{
             icon: "fa fa-wordpress",
@@ -106,7 +121,9 @@ export default {
         }
     ],
     Contact: {
+        addressLabel: "Address",
         address: "4321 California St, San Francisco, CA 12345 ",
+        phoneLabel: "Phone",
         phone: "+1 123 456 1234",
         email: "Legacyusathletes@gmail.com",
         facebook: "https://www.facebook.com/legacyusathletes/?ref=py_c",

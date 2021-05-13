@@ -1,12 +1,23 @@
 export default {
+    Navigation: {
+        services: "Servicios",
+        about: "Sobre Nosotros",
+        gallery: "Galería",
+        contact: "Contacto",
+    },
     Header: {
 
         title: "¡ PLAY YOUR LEGACY !",
-        paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios."
+        paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
+        learnMore: "Sepa más"
+
 
     },
     About: {
+        heading: "Sobre nosotros",
+        heading2: "Porque elegir nosotros?",
         paragraph: "Ya sea que no pudiste  ser un deportista profesional o tienes el sueño de experimentar la mejor experiencia de ser un deportista universitario. Nuestro principal objetivo es ser un mediador para los atletas que buscan oportunidades para obtener becas deportivas para una mejor educación y carrera. Legacy te guía paso a paso haciendo un proceso más fácil y organizado para encontrar la universidad perfecta para ti. ",
+        
         Why: [
             "Te garantizamos una beca en la universidad que mejor se adapte a tus necesidades.",
             "Somos deportistas universitarios con experiencia dentro y fuera de la cancha.",
@@ -20,6 +31,9 @@ export default {
             "Exercitation ullamco",
             "Lorem ipsum dolor"
         ]
+    },
+    Gallery: {
+        description: "Un poquito do que le puede passar en la vida universitaria.",
     },
     Services: [{
             icon: "fa fa-wordpress",
@@ -106,7 +120,9 @@ export default {
         }
     ],
     Contact: {
+        addressLabel: "Localización",
         address: "4321 California St, San Francisco, CA 12345 ",
+        phoneLabel: "Teléfono",
         phone: "+1 123 456 1234",
         email: "Legacyusathletes@gmail.com",
         facebook: "https://www.facebook.com/legacyusathletes/?ref=py_c",

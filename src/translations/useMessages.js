@@ -1,10 +1,10 @@
 import * as languages from './messages';
-
+import { useSelector } from 'react-redux';
 const useMessages = ()=> {
-    const lang = localStorage.getItem('lang');
+    const { langReducer } = useSelector(state => state);
+
     const getMessage = () => {
-        // console.log(languages[lang])
-        return lang !== 'en' ? languages['spa'] : languages['en'];
+        return langReducer.lang !== 'en' ? languages['spa'] : languages['en'];
     }
     return { getMessage };
 };

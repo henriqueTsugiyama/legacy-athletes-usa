@@ -1,6 +1,4 @@
 export const Header = (props) => {
-  const lang = localStorage.getItem('lang');
-
   return (
     <header id='header'>
       <div className='intro'>
@@ -17,7 +15,7 @@ export const Header = (props) => {
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  {lang !== 'en' ? "Sepa más" : "Learn More"}
+                  {props.data.learnMore}
                 </a>{' '}
               </div>
             </div>
