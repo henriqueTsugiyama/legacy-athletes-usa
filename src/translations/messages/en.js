@@ -1,0 +1,150 @@
+export default {
+    Navigation: {
+        services: "Services",
+        about: "About",
+        gallery: "Gallery",
+        contact: "Contact"
+    },
+    Header: {
+
+        title: "PLAY YOUR LEGACY!",
+        paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
+        learnMore: "Learn more"
+
+    },
+    
+    About: {
+        heading: "About us",
+        heading2: "Why choose us",
+        paragraph: "Either if you couldn’t be a professional sports player or if you have the dream to experience the best college-athlete experience.  Our main goal is to be a mediator for the athletes seeking opportunities to obtain athletic scholarships for a better education and career path. Legacy guides you step by step making an easier and more organized process of finding the right college fit. ", 
+        
+        Why: [
+            "We are experienced college athletes.",
+            "We have more than 200+ direct connections with college coaches.",
+            "We are passionate about the college life.",
+            "We have the tools and resources to find you the best scholarship posible.",
+            "Knowledge in every college leagues NCAA, NAIA ,NJCAA. "
+        ],
+        Why2: [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ],
+    },
+
+    Gallery: {
+        description: "Here is a taste of what college life can look like in US.",
+    },
+    Services: [{
+            icon: "fa fa-wordpress",
+            name: "Lorem ipsum dolor",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            icon: "fa fa-cart-arrow-down",
+            name: "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            icon: "fa fa-cloud-download",
+            name: "Lorem ipsum dolor",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            icon: "fa fa-language",
+            name: "Consectetur adipiscing",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            icon: "fa fa-plane",
+            name: "Lorem ipsum dolor",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            icon: "fa fa-pie-chart",
+            name: "Consectetur adipiscing",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    Testimonials: [{
+            img: "img/testimonials/01.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "John Doe"
+        },
+        {
+            img: "img/testimonials/02.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "Johnathan Doe"
+        },
+        {
+            img: "img/testimonials/03.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "John Doe"
+        },
+        {
+            img: "img/testimonials/04.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "Johnathan Doe"
+        },
+        {
+            img: "img/testimonials/05.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "John Doe"
+        },
+        {
+            img: "img/testimonials/06.jpg",
+            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            name: "Johnathan Doe"
+        }
+    ],
+    Team: [{
+            img: "img/team/01.jpg",
+            name: "John Doe",
+            job: "Director"
+        },
+        {
+            img: "img/team/02.jpg",
+            name: "Mike Doe",
+            job: "Senior Designer"
+        }, {
+            img: "img/team/03.jpg",
+            name: "Jane Doe",
+            job: "Senior Designer"
+        },
+        {
+            img: "img/team/04.jpg",
+            name: "Karen Doe",
+            job: "Project Manager"
+        }
+    ],
+    Contact: {
+        addressLabel: "Address",
+        address: "4321 California St, San Francisco, CA 12345 ",
+        phoneLabel: "Phone",
+        phone: "+1 123 456 1234",
+        email: "Legacyusathletes@gmail.com",
+        facebook: "https://www.facebook.com/legacyusathletes/?ref=py_c",
+        instagram: "https://www.instagram.com/legacyusathletes/",
+        twitter: "twitter.com",
+        youtube: "youtube.com"
+    },
+    Features: [{
+            icon: "fa fa-bullhorn",
+            title: "Recruiting",
+            text: "200+ direct connections with college coaches in the three main college leagues (NCAA, NAIA, NJCAA)."
+        },
+        {
+            icon: "fa fa-group",
+            title: "Athletic Network",
+            text: "Insights into the college sports industry."
+        },
+        {
+            icon: "fa fa-comments-o",
+            title: "Support before, during and after the recruiting process",
+            text: "Important knowledge inside college leagues."
+        }
+    ]
+}

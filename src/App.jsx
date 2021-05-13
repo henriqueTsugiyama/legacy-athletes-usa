@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
@@ -8,8 +9,10 @@ import { Gallery } from './components/gallery'
 import { Testimonials } from './components/testimonials'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
-import JsonData from './data/data.json'
+import { Questionnaire } from './components/Questionnaire'
 import SmoothScroll from 'smooth-scroll'
+import { useMessages } from './translations/';
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -17,22 +20,26 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 })
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({})
+  const [landingPageData, setLandingPageData] = useState({});
+  const lang = useSelector(state => state);
+  const { getMessage } = useMessages();
+  const messages = getMessage();
   useEffect(() => {
-    setLandingPageData(JsonData)
-  }, [])
+    console.log(messages)
+  }, [lang])
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      {/* <Services data={landingPageData.Services} /> */}
-      <Gallery />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      <Navigation data={messages.Navigation} />
+      <Header data={messages.Header} />
+      <Features data={messages} />
+      {/* <Questionnaire /> */}
+      <About data={messages.About} />
+      {/* <Services data={messages.Services} /> */}
+      <Gallery data={messages} />
+      {/* <Testimonials data={messages.Testimonials} /> */}
+      {/* <Team data={messages.Team} /> */}
+      <Contact data={messages.Contact} />
     </div>
   )
 }

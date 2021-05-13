@@ -1,11 +1,12 @@
 export const Gallery = (props) => {
+ 
   return (
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>{props.data.Navigation.gallery}</h2>
           <p>
-            Here is a taste of what college life can look like in US.
+            {props.data.Gallery.description}
           </p>
         </div>
         <div className='row'>
