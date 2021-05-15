@@ -143,8 +143,8 @@ export default {
         },
         {
             icon: "fa fa-comments-o",
-            title: "Support before, during and after the recruiting process",
-            text: "Important knowledge inside college leagues."
+            title: "Support",
+            text: "Before, during and after the recruiting process."
         }
     ]
 }
