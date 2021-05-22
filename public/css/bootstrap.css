@@ -5835,7 +5835,7 @@ button.list-group-item-danger.active:focus {
   border-color: rgba(0, 0, 0, .15);
 }
 .well-lg {
-  padding: 24px;
+  padding: 100px 0;
   border-radius: 6px;
 }
 .well-sm {
