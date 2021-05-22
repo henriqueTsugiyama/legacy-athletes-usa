@@ -36,13 +36,29 @@ export default {
     Processes: {
         heading: "The Process",
         description: "What’s the full process to get athletic scholarship?",
+        
+        evaluationHeading: "Evaluation",
         evaluation: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process.",
+        
+        testsHeading: "Tests",
         tests: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests.",
+        
+
+        marketingHeading: "Marketing of the player",
         marketing: "We market you with our specific network and present you to the university coaches",
+
+        registrationHeading: "Registration",
         registration: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         ",
+
+        applicationHeading: "University application",
         application: "We provide all the necessary guidance with the university application.",
+
+        visaHeading: "Student Visa",
         visa: "We assist you with the student visa application process.",
+
+        travelHeading: "Travel",
         travel: "We help you coordinate the travel schedule to the next chapter of your life.",
+
     },
 
     Gallery: {

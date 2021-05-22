@@ -34,17 +34,32 @@ export default {
     },
 
     Processes: {
-        heading: "The Process",
-        description: "What’s the full process to get athletic scholarship?",
-        evaluation: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process.",
-        tests: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests.",
-        marketing: "We market you with our specific network and present you to the university coaches",
-        registration: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         ",
-        application: "We provide all the necessary guidance with the university application.",
-        visa: "We assist you with the student visa application process.",
-        travel: "We help you coordinate the travel schedule to the next chapter of your life.",
+        heading: "El proceso",
+        description: "¿Cuál es el proceso completo para obtener una beca deportiva?",
+
+        evaluationHeading: "Evaluación",
+        evaluation: "Evaluamos tus opciones específicas. Conocemos tus metas y expectativas. Y te damos una  explicación de todo el proceso",
+
+        testsHeading: "Exámenes",
+        tests: "Te ayudamos con la aplicación a los exámenes TOEFL y SAT / ACT además de ayudarte con la preparación de estos. ",
+
+        marketingHeading: "Mercando del Jugador",
+        marketing: "Hacemos un proceso de mercadeo con nuestra red específica y te presentamos a los entrenadores universitarios.",
+
+        registrationHeading: "Registro",
+        registration: "Te ayudamos con el registro de la NCAA o NAIA y con el papeleo necesario.",
+
+        applicationHeading: "Solicitud universitaria",
+        application: "Brindamos toda la orientación necesaria para la solicitud de tu vinculación Universitaria.",
+
+        visaHeading: "Visa de estudiante",
+        visa: "Te ayudamos con el proceso de solicitud de visa de estudiante (F1).",
+
+        travelHeading: "Viajes",
+        travel: "Te ayudamos a coordinar el itinerario de tu viaje hacia el nuevo capítulo de tu vida.",
+
     },
-    
+
     Gallery: {
         description: "Un poquito do que le puede passar en la vida universitaria.",
     },

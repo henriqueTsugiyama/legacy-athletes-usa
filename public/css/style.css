@@ -209,11 +209,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 60px;
+	font-size: 45px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	.intro h1 {
+		font-size: 30px;
+	}
 }
 .intro h1 span {
 	font-weight: 800;
@@ -248,6 +254,13 @@ header .intro-text {
 	border-radius: 50%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+/* Proccess section */
+#process > div{
+	padding: 100px 0;
+	background: #f6f6f6;
+	width: 100px;
 }
 /* About Section */
 #about {
@@ -293,7 +306,7 @@ header .intro-text {
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 1200px) { 
 
 	#about img, .img-display { 
 		display: none;
@@ -301,6 +314,10 @@ header .intro-text {
 	}  
 	#about h2, h3, p {
 		text-align: center;
+	}
+	#about li {
+		width: fit-content;
+		left: 15%;
 	}
 	#about h2::after{
 		left: 22%;

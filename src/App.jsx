@@ -10,6 +10,7 @@ import { Testimonials } from './components/testimonials'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import { Questionnaire } from './components/Questionnaire'
+import { Proccess } from './components/proccess'
 import SmoothScroll from 'smooth-scroll'
 import { useMessages } from './translations/';
 
@@ -20,7 +21,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 })
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
   const lang = useSelector(state => state);
   const { getMessage } = useMessages();
   const messages = getMessage();
@@ -33,8 +33,10 @@ const App = () => {
       <Navigation data={messages.Navigation} />
       <Header data={messages.Header} />
       <Features data={messages} />
+      <Proccess data={messages.Processes} />
       {/* <Questionnaire /> */}
       <About data={messages.About} />
+      
       {/* <Services data={messages.Services} /> */}
       <Gallery data={messages} />
       {/* <Testimonials data={messages.Testimonials} /> */}

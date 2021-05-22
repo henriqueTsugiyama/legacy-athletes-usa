@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToggleButton } from '../reusableComponents/ToggleButton'
 import { switchLangReq } from '../../src/store/modules/lang/actions'
+
 export const Navigation = (props) => {
 
   const [selected, toggleSelected ] = useState(false);
