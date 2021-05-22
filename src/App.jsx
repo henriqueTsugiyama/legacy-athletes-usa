@@ -10,7 +10,7 @@ import { Testimonials } from './components/testimonials'
 import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import { Questionnaire } from './components/Questionnaire'
-import { Proccess } from './components/proccess'
+import { Process } from './components/Process'
 import SmoothScroll from 'smooth-scroll'
 import { useMessages } from './translations/';
 
@@ -33,7 +33,7 @@ const App = () => {
       <Navigation data={messages.Navigation} />
       <Header data={messages.Header} />
       <Features data={messages} />
-      <Proccess data={messages.Processes} />
+      <Process data={messages.Processes} />
       {/* <Questionnaire /> */}
       <About data={messages.About} />
       
