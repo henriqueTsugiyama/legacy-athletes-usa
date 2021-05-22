@@ -7,7 +7,7 @@ export default {
     },
     Header: {
 
-        title: "PLAY YOUR LEGACY!",
+        title: "Ready to play your legacy?",
         paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
         learnMore: "Learn more"
 
@@ -31,6 +31,18 @@ export default {
             "Exercitation ullamco",
             "Lorem ipsum dolor"
         ],
+    },
+
+    Processes: {
+        heading: "The Process",
+        description: "What’s the full process to get athletic scholarship?",
+        evaluation: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process.",
+        tests: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests.",
+        marketing: "We market you with our specific network and present you to the university coaches",
+        registration: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         ",
+        application: "We provide all the necessary guidance with the university application.",
+        visa: "We assist you with the student visa application process.",
+        travel: "We help you coordinate the travel schedule to the next chapter of your life.",
     },
 
     Gallery: {
@@ -139,7 +151,7 @@ export default {
         {
             icon: "fa fa-group",
             title: "Athletic Network",
-            text: "Insights into the college sports industry."
+            text: "Whether looking for your dream college, or advice on the career that you want to pursue, you can be sure it is coming from people that share your passion and drive. The legacy family."
         },
         {
             icon: "fa fa-comments-o",

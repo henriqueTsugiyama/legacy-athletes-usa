@@ -13,7 +13,7 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <h3>{props.data.heading2}</h3>
               <div className='list-style'>
-                <div className='col-lg-12 col-sm-6 col-xs-12'>
+                <div className='col-lg-12 col-sm-12 col-xs-12'>
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (

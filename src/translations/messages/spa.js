@@ -7,7 +7,7 @@ export default {
     },
     Header: {
 
-        title: "¡ PLAY YOUR LEGACY !",
+        title: "¿Listo para jugar tu legado?",
         paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
         learnMore: "Saber más"
 
@@ -32,6 +32,19 @@ export default {
             "Lorem ipsum dolor"
         ]
     },
+
+    Processes: {
+        heading: "The Process",
+        description: "What’s the full process to get athletic scholarship?",
+        evaluation: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process.",
+        tests: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests.",
+        marketing: "We market you with our specific network and present you to the university coaches",
+        registration: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         ",
+        application: "We provide all the necessary guidance with the university application.",
+        visa: "We assist you with the student visa application process.",
+        travel: "We help you coordinate the travel schedule to the next chapter of your life.",
+    },
+    
     Gallery: {
         description: "Un poquito do que le puede passar en la vida universitaria.",
     },
