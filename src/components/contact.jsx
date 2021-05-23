@@ -101,7 +101,7 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
-            <div className='contact-item'>
+            {/* <div className='contact-item'>
               <h3>{ langReducer.lang !== 'en' ? "Informaciones de contacto" : "Contact Info"}</h3>
               <p>
                 <span>
@@ -117,7 +117,7 @@ export const Contact = (props) => {
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
-            </div>
+            </div> */}
             <div className='contact-item'>
               <p>
                 <span>

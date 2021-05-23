@@ -25,22 +25,21 @@ const App = () => {
   const { getMessage } = useMessages();
   const messages = getMessage();
   useEffect(() => {
-    console.log(messages)
+    console.log(messages);
   }, [lang])
 
   return (
     <div>
-      <Navigation data={messages.Navigation} />
+      <Navigation data={messages} />
       <Header data={messages.Header} />
       <Features data={messages} />
       <Process data={messages.Processes} />
       {/* <Questionnaire /> */}
       <About data={messages.About} />
-      
       {/* <Services data={messages.Services} /> */}
       <Gallery data={messages} />
       {/* <Testimonials data={messages.Testimonials} /> */}
-      {/* <Team data={messages.Team} /> */}
+      <Team data={messages.Team} />
       <Contact data={messages.Contact} />
     </div>
   )

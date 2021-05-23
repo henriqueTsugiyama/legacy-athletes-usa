@@ -1,6 +1,7 @@
 export default {
     Navigation: {
         services: "Services",
+        process: "Process",
         about: "About",
         gallery: "Gallery",
         contact: "Contact"
@@ -34,32 +35,58 @@ export default {
     },
 
     Processes: {
-        heading: "The Process",
-        description: "What’s the full process to get athletic scholarship?",
+        headers: {
+                heading: "Action Plan",
+                description: "What’s the full process to get athletic scholarship?"
+            },
+        steps: [        
+            {
+                image: "fa fa-check-square fa-4x",
+                heading: "Evaluation",
+                description: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process."
+            },
+
+            {    
+                image: "fa fa-book fa-4x",
+                heading: "Tests",
+                description: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests."
+            },
+
+            {
+                image: "fa fa-reply-all fa-4x",
+                heading: "Marketing of the player",
+                description: "We market you with our specific network and present you to the university coaches"
+            },
+
+            {
+                image: "fa fa-user fa-4x",
+                heading: "Registration",
+                description: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         "
+            },
+
+            { 
+                image: "fa fa-calendar fa-4x",
+                heading: "University application",
+                description: "We provide all the necessary guidance with the university application."
+            },
+
+            {
+                image: "fa fa-envelope fa-4x",
+                heading: "Student Visa",
+                description: "We assist you with the student visa application process."
+            },
+
+            {
+                image: "fa fa-plane  fa-4x",
+                heading: "Travel",
+                description: "We help you coordinate the travel schedule to the next chapter of your life."
+            },
+
+        ],
         
-        evaluationHeading: "Evaluation",
-        evaluation: "We evaluate your specific options. Learning your goals and expectations. And a explanation of the entire process.",
-        
-        testsHeading: "Tests",
-        tests: "We help you with the application to the TOEFL and SAT/ACT tests as well as preparing you for the tests.",
-        
-
-        marketingHeading: "Marketing of the player",
-        marketing: "We market you with our specific network and present you to the university coaches",
-
-        registrationHeading: "Registration",
-        registration: "We assist you with NCAA or NAIA registration and help you with necessary paperwork.         ",
-
-        applicationHeading: "University application",
-        application: "We provide all the necessary guidance with the university application.",
-
-        visaHeading: "Student Visa",
-        visa: "We assist you with the student visa application process.",
-
-        travelHeading: "Travel",
-        travel: "We help you coordinate the travel schedule to the next chapter of your life.",
 
     },
+
 
     Gallery: {
         description: "Here is a taste of what college life can look like in US.",
@@ -117,36 +144,38 @@ export default {
             text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             name: "Johnathan Doe"
         },
-        {
-            img: "img/testimonials/05.jpg",
-            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            name: "John Doe"
-        },
-        {
-            img: "img/testimonials/06.jpg",
-            text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            name: "Johnathan Doe"
-        }
+        
     ],
-    Team: [{
-            img: "img/team/01.jpg",
-            name: "John Doe",
-            job: "Director"
-        },
+    Team: [
         {
-            img: "img/team/02.jpg",
-            name: "Mike Doe",
-            job: "Senior Designer"
-        }, {
-            img: "img/team/03.jpg",
-            name: "Jane Doe",
-            job: "Senior Designer"
+            img: "img/team/christian.jpeg",
+            name: "Christian Nicolas Barbieri De Peray",
+            job: "Director Of Legacy USA "
         },
-        {
-            img: "img/team/04.jpg",
-            name: "Karen Doe",
-            job: "Project Manager"
-        }
+        { 
+            img: "img/team/juan.jpeg",
+            name: "Juan Esteban Durán Avellaneda",
+            job: "Director of Marketing and Public Relations "
+        }, 
+        // {
+        //     img: "img/team/03.jpg",
+        //     name: "Jane Doe",
+        //     job: "Senior Designer"
+        // },
+        // {
+        //     img: "img/team/04.jpg",
+        //     name: "Karen Doe",
+        //     job: "Project Manager"
+        // }, 
+        // {
+        //     img: "img/team/02.jpg",
+        //     name: "Mike Doe",
+        //     job: "Senior Designer"
+        // }, {
+        //     img: "img/team/03.jpg",
+        //     name: "Jane Doe",
+        //     job: "Senior Designer"
+        // },
     ],
     Contact: {
         addressLabel: "Address",

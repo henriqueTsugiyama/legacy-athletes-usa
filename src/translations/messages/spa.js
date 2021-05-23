@@ -1,6 +1,7 @@
 export default {
     Navigation: {
         services: "Servicios",
+        process: "Processo",
         about: "Legacy",
         gallery: "Galería",
         contact: "Contacto",
@@ -34,29 +35,55 @@ export default {
     },
 
     Processes: {
-        heading: "El proceso",
-        description: "¿Cuál es el proceso completo para obtener una beca deportiva?",
+        headers: {
+                heading: "El proceso ",
+                description: "¿Cuál es el proceso completo para obtener una beca deportiva?"
+            },
+        steps: [        
+            {
+                image: "fa fa-check-square fa-4x",
+                heading: "Evaluación",
+                description: "Evaluamos tus opciones específicas. Conocemos tus metas y expectativas. Y te damos una  explicación de todo el proceso."
+            },
 
-        evaluationHeading: "Evaluación",
-        evaluation: "Evaluamos tus opciones específicas. Conocemos tus metas y expectativas. Y te damos una  explicación de todo el proceso",
+            {    
+                image: "fa fa-book fa-4x",
+                heading: "Exámenes",
+                description: "Te ayudamos con la aplicación a los exámenes TOEFL y SAT / ACT además de ayudarte con la preparación de estos."
+            },
 
-        testsHeading: "Exámenes",
-        tests: "Te ayudamos con la aplicación a los exámenes TOEFL y SAT / ACT además de ayudarte con la preparación de estos. ",
+            {
+                image: "fa fa-reply-all  fa-4x",
+                heading: "Mercando del Jugador",
+                description: "Hacemos un proceso de mercadeo con nuestra red específica y te presentamos a los entrenadores universitarios."
+            },
 
-        marketingHeading: "Mercando del Jugador",
-        marketing: "Hacemos un proceso de mercadeo con nuestra red específica y te presentamos a los entrenadores universitarios.",
+            {
+                image: "fa fa-user fa-4x",
+                heading: "Registro",
+                description: "Te ayudamos con el registro de la NCAA o NAIA y con el papeleo necesario."
+            },
 
-        registrationHeading: "Registro",
-        registration: "Te ayudamos con el registro de la NCAA o NAIA y con el papeleo necesario.",
+            { 
+                image: "fa fa-calendar fa-4x",
+                heading: "Solicitud universitaria",
+                description: "Brindamos toda la orientación necesaria para la solicitud de tu vinculación Universitaria. "
+            },
 
-        applicationHeading: "Solicitud universitaria",
-        application: "Brindamos toda la orientación necesaria para la solicitud de tu vinculación Universitaria.",
+            {
+                image: "fa fa-envelope fa-4x",
+                heading: "Visa de estudiante",
+                description: "Te ayudamos con el proceso de solicitud de visa de estudiante (F1). "
+            },
 
-        visaHeading: "Visa de estudiante",
-        visa: "Te ayudamos con el proceso de solicitud de visa de estudiante (F1).",
+            {
+                image: "fa fa-plane fa-4x",
+                heading: "Viajes",
+                description: "Te ayudamos a coordinar el itinerario de tu viaje hacia el nuevo capítulo de tu vida."
+            },
 
-        travelHeading: "Viajes",
-        travel: "Te ayudamos a coordinar el itinerario de tu viaje hacia el nuevo capítulo de tu vida.",
+        ],
+        
 
     },
 
@@ -127,25 +154,17 @@ export default {
             name: "Johnathan Doe"
         }
     ],
-    Team: [{
-            img: "img/team/01.jpg",
-            name: "John Doe",
-            job: "Director"
-        },
+    Team: [
         {
-            img: "img/team/02.jpg",
-            name: "Mike Doe",
-            job: "Senior Designer"
-        }, {
-            img: "img/team/03.jpg",
-            name: "Jane Doe",
-            job: "Senior Designer"
+            img: "img/team/christian.jpeg",
+            name: "Christian Nicolas Barbieri De Peray",
+            job: "Director Of Legacy USA "
         },
-        {
-            img: "img/team/04.jpg",
-            name: "Karen Doe",
-            job: "Project Manager"
-        }
+        { 
+            img: "img/team/juan.jpeg",
+            name: "Juan Esteban Durán Avellaneda",
+            job: "Director of Marketing and Public Relations "
+        }, 
     ],
     Contact: {
         addressLabel: "Localización",

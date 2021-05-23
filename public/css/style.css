@@ -66,8 +66,13 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 8px;
 	transition: all 0.8s;
+}
+#menu.social-media {
+	display: flex;
+	width: 100%;
+
 }
 #menu.navbar-default {
 	background-color: #000;
@@ -83,8 +88,7 @@ hr {
 }
 #menu.navbar-default .navbar-nav {
 	display: flex;
-	align-items: flex-end;
-	width: 55%;
+	align-items: center;	
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -124,6 +128,12 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
+}
+.nav-status{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -191,8 +201,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	padding-top: 0;
-	/* margin-top: 20px; */
+	/* padding-top:  50px; */
+	margin-top: 100px;
 	background: url(../img/tennis_team_chant.JPG) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -216,7 +226,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
+	.intro {
+		margin-top: 10px;
+		
+	}
 	.intro h1 {
 		font-size: 30px;
 	}
