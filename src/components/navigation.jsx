@@ -2,14 +2,17 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToggleButton } from '../reusableComponents/ToggleButton'
 import { switchLangReq } from '../../src/store/modules/lang/actions'
+
 export const Navigation = (props) => {
 
   const [selected, toggleSelected ] = useState(false);
   const { langReducer } = useSelector(state => state);
+  const { Navigation, Contact } = props.data; 
   const dispatch = useDispatch();
+  
 
   useEffect(()=>{
-    console.log(props.data)
+
 
   }, [])
   
@@ -24,6 +27,41 @@ export const Navigation = (props) => {
 
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+        
+        <div className='container'>
+          <div
+            className='collapse navbar-collapse'
+            id='bs-example-navbar-collapse-1'
+          >
+            <div className='nav-status'>
+              <ul className='nav navbar-nav navbar-left'>
+                      <li>
+                        <a href={props.data ? Contact.facebook : '/'}>
+                          <i className='fa fa-facebook fa-2x'></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href={props.data ? Contact.instagram : '/'}>
+                          <i className='fa fa-instagram fa-2x'></i>
+                        </a>
+                      </li>
+                    </ul>
+            
+              <ul className='nav navbar-nav navbar-right'>
+                <li>
+                  <ToggleButton 
+                  selected={langReducer.lang} 
+                  toggleSelected={()=> {
+                    handleToggle()
+                  }}
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
       <div className='container'>
         <div className='navbar-header'>
           <button
@@ -49,23 +87,20 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <ToggleButton 
-              selected={langReducer.lang} 
-              toggleSelected={()=> {
-                handleToggle()
-              }}
-              />
-            </li>
             
             <li>
               <a href='#features' className='page-scroll'>
-                {props.data.services}
+                {Navigation.services}
+              </a>
+            </li>
+            <li>
+              <a href='#process' className='page-scroll'>
+                {Navigation.process}
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-              {props.data.about}
+              {Navigation.about}
               </a>
             </li>
             {/* <li>
@@ -75,7 +110,7 @@ export const Navigation = (props) => {
             </li> */}
             <li>
               <a href='#portfolio' className='page-scroll'>
-                {props.data.gallery}
+                {Navigation.gallery}
               </a>
             </li>
             {/* <li>
@@ -90,7 +125,7 @@ export const Navigation = (props) => {
             </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
-                {props.data.contact}
+                {Navigation.contact}
               </a>
             </li>
           </ul>
