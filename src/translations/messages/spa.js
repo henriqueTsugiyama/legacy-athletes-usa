@@ -4,13 +4,15 @@ export default {
         process: "Processo",
         about: "Legacy",
         gallery: "Galería",
+        team: "Equipo",
         contact: "Contacto",
     },
     Header: {
 
         title: "¿Listo para jugar tu legado?",
         paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
-        learnMore: "Saber más"
+        learnMore: "Saber más",
+        image: "img/legacy-logo-new.PNG",
 
 
     },
@@ -54,7 +56,7 @@ export default {
 
             {
                 image: "fa fa-reply-all  fa-4x",
-                heading: "Mercando del Jugador",
+                heading: "Mercadeo del Jugador",
                 description: "Hacemos un proceso de mercadeo con nuestra red específica y te presentamos a los entrenadores universitarios."
             },
 

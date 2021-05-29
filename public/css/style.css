@@ -134,6 +134,9 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+	height: 6vh;
+    margin-bottom: 5px;
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -202,7 +205,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	/* padding-top:  50px; */
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	background: url(../img/tennis_team_chant.JPG) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -248,9 +251,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
+	width: 100%;
+}
+
+header .intro-text img{
+	width: 200px;
+	height: 220px;
+	
 }
 /* Features Section */
 #features {
@@ -511,6 +521,7 @@ header .intro-text {
 }
 #contact .section-title p {
 	font-size: 16px;
+	text-align: left;
 }
 #contact h2 {
 	color: #fff;

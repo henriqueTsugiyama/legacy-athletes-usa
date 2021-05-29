@@ -4,11 +4,11 @@ export const Header = (props) => {
       <div className='intro'>
         <div className='overlay'>
           <div className='container'>
-            <div className='row'>
+            <div className='column'>
               <div className=' col-xs-12 col-md-8 intro-text'>
                 <h1>
-                  {props.data ? props.data.title : 'Loading'}
-                  <span></span>
+                  {/* {props.data ? props.data.title : 'Loading'} */}
+                  <span><img src={props.data.image} alt=""/></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a

@@ -30,19 +30,19 @@ export const Navigation = (props) => {
         
         <div className='container'>
           <div
-            className='collapse navbar-collapse'
-            id='bs-example-navbar-collapse-1'
+            // className=''
+            // id='bs-example-navbar-collapse-1'
           >
             <div className='nav-status'>
               <ul className='nav navbar-nav navbar-left'>
                       <li>
                         <a href={props.data ? Contact.facebook : '/'}>
-                          <i className='fa fa-facebook fa-2x'></i>
+                          <i className='fa fa-facebook fa-1x'></i>
                         </a>
                       </li>
                       <li>
                         <a href={props.data ? Contact.instagram : '/'}>
-                          <i className='fa fa-instagram fa-2x'></i>
+                          <i className='fa fa-instagram fa-1x'></i>
                         </a>
                       </li>
                     </ul>
@@ -109,6 +109,12 @@ export const Navigation = (props) => {
               </a>
             </li> */}
             <li>
+              <a href='#team' className='page-scroll'>
+                {Navigation.team}
+              </a>
+            </li>
+            
+            <li>
               <a href='#portfolio' className='page-scroll'>
                 {Navigation.gallery}
               </a>
@@ -117,12 +123,8 @@ export const Navigation = (props) => {
               <a href='#testimonials' className='page-scroll'>
                 Testimonials
               </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
             </li> */}
+            
             <li>
               <a href='#contact' className='page-scroll'>
                 {Navigation.contact}

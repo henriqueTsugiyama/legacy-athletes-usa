@@ -4,13 +4,15 @@ export default {
         process: "Process",
         about: "About",
         gallery: "Gallery",
+        team: "Team",
         contact: "Contact"
     },
     Header: {
 
         title: "Ready to play your legacy?",
         paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
-        learnMore: "Learn more"
+        learnMore: "Learn more",
+        image: "img/legacy-logo-new.PNG",
 
     },
     
