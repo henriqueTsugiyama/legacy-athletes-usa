@@ -36,10 +36,11 @@ const App = () => {
       <Process data={messages.Processes} />
       {/* <Questionnaire /> */}
       <About data={messages.About} />
+      <Team data={messages.Team} />
+
       {/* <Services data={messages.Services} /> */}
       <Gallery data={messages} />
       {/* <Testimonials data={messages.Testimonials} /> */}
-      <Team data={messages.Team} />
       <Contact data={messages.Contact} />
     </div>
   )
