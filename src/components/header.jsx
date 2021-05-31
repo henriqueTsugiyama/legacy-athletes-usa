@@ -6,10 +6,8 @@ export const Header = (props) => {
           <div className='container'>
             <div className='column'>
               <div className=' col-xs-12 col-md-8 intro-text'>
-                <h1>
-                  {/* {props.data ? props.data.title : 'Loading'} */}
-                  <span><img src={props.data.image} alt=""/></span>
-                </h1>
+                <span><img src={props.data.image} alt=""/></span>
+                <h1>{props.data ? props.data.title : 'Loading'}</h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
                   href='#features'
