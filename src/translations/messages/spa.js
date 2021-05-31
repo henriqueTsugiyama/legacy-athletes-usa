@@ -9,17 +9,17 @@ export default {
     },
     Header: {
 
-        title: "¿Listo para jugar tu legado?",
+        title: "BECAS DEPORTIVAS EN USA 🇺🇸",
         paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
         learnMore: "Saber más",
-        image: "img/legacy-logo-new.PNG",
+        image: "img/legacy-logo-usa-new.png",
 
 
     },
     About: {
         heading: "Sobre nosotros",
         heading2: "¿POR QUÉ ELEGIRNOS A NOSOTROS?",
-        paragraph: "Ya sea que no pudiste  ser un deportista profesional o tienes el sueño de experimentar la mejor experiencia de ser un deportista universitario. Nuestro principal objetivo es ser un mediador para los atletas que buscan oportunidades para obtener becas deportivas para una mejor educación y carrera. Legacy te guía paso a paso haciendo un proceso más fácil y organizado para encontrar la universidad perfecta para ti. ",
+        paragraph: "Si no pudiste ser un deportista profesional o tienes el sueño de experimentar la mejor experiencia de ser un deportista universitario...Nuestro objetivo principal es ser un mediador para los atletas que buscan oportunidades en Universidades Americanas, con el fin de competir y estudiar al más alto nivel. Legacy te guía paso a paso haciendo un proceso más fácil y organizado para encontrar la universidad perfecta para ti.",
         
         Why: [
             "Te garantizamos una beca en la universidad que mejor se adapte a tus necesidades.",
@@ -90,7 +90,7 @@ export default {
     },
 
     Gallery: {
-        description: "Un poquito do que le puede passar en la vida universitaria.",
+        description: "Una pequeña muestra de la vida universitaria en USA.",
     },
     Services: [{
             icon: "fa fa-wordpress",

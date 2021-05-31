@@ -258,8 +258,8 @@ header .intro-text {
 }
 
 header .intro-text img{
-	width: 200px;
-	height: 220px;
+	width: 220px;
+	height: 265px;
 	
 }
 /* Features Section */
@@ -494,7 +494,7 @@ header .intro-text img{
 }
 /* Team Section */
 #team {
-	padding: 100px 0;
+	padding: 120px 0;
 }
 #team h4 {
 	margin: 5px 0;
