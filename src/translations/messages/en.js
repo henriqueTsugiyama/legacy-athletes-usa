@@ -9,7 +9,7 @@ export default {
     },
     Header: {
 
-        title: "Sport Schooarships in the US",
+        title: "Sports Scholarships in the US",
         paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
         learnMore: "Learn more",
         image: "img/legacy-logo-usa-new.png",
