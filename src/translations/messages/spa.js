@@ -9,7 +9,7 @@ export default {
     },
     Header: {
 
-        title: "BECAS DEPORTIVAS EN USA 🇺🇸",
+        title: "Becas Desportivas en USA",
         paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
         learnMore: "Saber más",
         image: "img/legacy-logo-usa-new.png",
