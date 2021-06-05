@@ -12,7 +12,7 @@ export default {
         title: "Sports Scholarships in the US",
         paragraph:"As former College Athletes. We guide student-athletes in their journey towards the next chapter of their life. Targeting the perfect University to make them excel in their sport and academics.",
         learnMore: "Learn more",
-        image: "img/legacy-logo-usa-new.png",
+        image: "img/legacy-logo-new.PNG",
 
     },
     
@@ -183,7 +183,7 @@ export default {
         addressLabel: "Address",
         address: "4321 California St, San Francisco, CA 12345 ",
         phoneLabel: "Phone",
-        phone: "+1 123 456 1234",
+        phone: "+1 202 731 8883",
         email: "Legacyusathletes@gmail.com",
         facebook: "https://www.facebook.com/legacyusathletes/?ref=py_c",
         instagram: "https://www.instagram.com/legacyusathletes/",
@@ -198,7 +198,7 @@ export default {
         {
             icon: "fa fa-group",
             title: "Athletic Network",
-            text: "Whether looking for your dream college, or advice on the career that you want to pursue, you can be sure it is coming from people that share your passion and drive. The legacy family."
+            text: "Direct counseling 24/7 in academics and athletics."
         },
         {
             icon: "fa fa-comments-o",

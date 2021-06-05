@@ -109,7 +109,7 @@ export const Contact = (props) => {
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
-            </div>
+            </div> */}
             <div className='contact-item'>
               <p>
                 <span>
@@ -117,7 +117,7 @@ export const Contact = (props) => {
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
-            </div> */}
+            </div>
             <div className='contact-item'>
               <p>
                 <span>

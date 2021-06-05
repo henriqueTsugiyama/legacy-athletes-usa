@@ -1,7 +1,7 @@
 export default {
     Navigation: {
         services: "Servicios",
-        process: "Processo",
+        process: "Proceso",
         about: "Legacy",
         gallery: "Galería",
         team: "Equipo",
@@ -10,9 +10,9 @@ export default {
     Header: {
 
         title: "Becas Desportivas en USA",
-        paragraph:"Como graduados y ex atletas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de tu vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
+        paragraph:"Como graduados y ex-deportistas universitarios. Guiamos a nuestros atletas en su viaje hacia el mejor capítulo de su vida. Encontrando la Universidad perfecta para hacerlos sobresalir en su deporte y estudios.",
         learnMore: "Saber más",
-        image: "img/legacy-logo-usa-new.png",
+        image: "img/legacy-logo-new.PNG",
 
 
     },
@@ -172,7 +172,7 @@ export default {
         addressLabel: "Localización",
         address: "4321 California St, San Francisco, CA 12345 ",
         phoneLabel: "Teléfono",
-        phone: "+1 123 456 1234",
+        phone: "+1 202 731 8883",
         email: "Legacyusathletes@gmail.com",
         facebook: "https://www.facebook.com/legacyusathletes/?ref=py_c",
         instagram: "https://www.instagram.com/legacyusathletes/",
@@ -187,7 +187,7 @@ export default {
         {
             icon: "fa fa-group",
             title: "Conexión deportiva",
-            text: "Ya sea que busques la universidad de tus sueños o un consejo sobre la carrera que desea seguir, puedes estar seguro de que proviene de personas que comparten tu pasión e impulso. La familia Legacy."
+            text: "Consejería directa 24/7 en el ámbito académico y deportivo."
         },
         {
             icon: "fa fa-comments-o",
