@@ -9,6 +9,7 @@ const initialState = {
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState)
   const {langReducer} = useSelector(state => state)
+
   const handleChange = (e) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
@@ -20,7 +21,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_by8rca8', 'template_wdagber', e.target, 'user_8GNfSzSbdSgmQ9ii1KPrW'
       )
       .then(
         (result) => {
