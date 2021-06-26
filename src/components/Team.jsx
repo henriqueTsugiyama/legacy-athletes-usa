@@ -12,13 +12,30 @@ export const Team = (props) => {
         <div id='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-3 col-sm-6 team'>
+                <div key={`${d.name}-${i}`} className='col-md-6 col-sm-6 team'>
                   <div className='thumbnail'>
                     {' '}
                     <img src={d.img} alt='...' className='team-img' />
                     <div className='caption'>
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
+                      <div>
+                        <h4>{d.name}</h4>
+                        <p>{d.job}</p>
+                      </div>
+                      
+                      {langReducer.lang == 'en' &&
+                      <>
+                      <h4>{d.bio.title}</h4>
+                      <p>{d.bio.text}</p>
+
+                      <h4>{d.accomplishments.title}</h4>
+                      <ul>
+                        {d.accomplishments.text.map((item, index)=> (
+                        <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                      </>
+                      }
+                      
                     </div>
                   </div>
                 </div>

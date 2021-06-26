@@ -507,10 +507,16 @@ header .intro-text img{
 #team .thumbnail {
 	background: transparent;
 	border: 0;
+	text-align: left;
 }
 #team .thumbnail .caption {
 	padding: 10px 0 0 0;
 	color: #888;
+	 
+}
+
+#team .thumbnail .caption > div {
+	text-align: center;
 }
 /* Contact Section */
 #contact {
