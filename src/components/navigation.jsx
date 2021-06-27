@@ -29,36 +29,31 @@ export const Navigation = (props) => {
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
         
         <div className='container'>
-          <div
-            // className=''
-            // id='bs-example-navbar-collapse-1'
-          >
+          {/* <div
+            className=''
+            id='bs-example-navbar-collapse-1'
+          > */}
             <div className='nav-status'>
               <ul className='nav navbar-nav navbar-left'>
-                      <li>
-                        <a href={props.data ? Contact.facebook : '/'}>
-                          <i className='fa fa-facebook fa-1x'></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href={props.data ? Contact.instagram : '/'}>
-                          <i className='fa fa-instagram fa-1x'></i>
-                        </a>
-                      </li>
-                    </ul>
-            
-              <ul className='nav navbar-nav navbar-right'>
                 <li>
-                  <ToggleButton 
-                  selected={langReducer.lang} 
-                  toggleSelected={()=> {
-                    handleToggle()
-                  }}
-                  />
+                  <a href={props.data ? Contact.facebook : '/'}>
+                    <i className='fa fa-facebook fa-1x'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? Contact.instagram : '/'}>
+                    <i className='fa fa-instagram fa-1x'></i>
+                  </a>
                 </li>
               </ul>
+            
+              <ToggleButton 
+                  className='nav navbar-nav navbar-right'
+                  selected={langReducer.lang} 
+                  toggleSelected={()=> handleToggle()}
+                  />
             </div>
-          </div>
+          {/* </div> */}
         </div>
 
 

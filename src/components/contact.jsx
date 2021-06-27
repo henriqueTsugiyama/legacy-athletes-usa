@@ -38,7 +38,7 @@ export const Contact = (props) => {
       <div id='contact'>
         <div className='container'>
           <div className='col-md-8'>
-            <div className='row'>
+            <div className='row contact-form'>
               <div className='section-title'>
                 <h2>{langReducer.lang !== 'en' ? "Contáctenos" : "Get in touch"}</h2>
                 <p>
@@ -46,9 +46,7 @@ export const Contact = (props) => {
                   "Complete el formulario al lado para guardarmos su correo electrónico y nos pondremos en contacto con usted lo antes posible."
                   : 
                   "Please fill out the form below to send us an email and we will get back to you as soon as possible." 
-                }
-                  
-                  
+                  }
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -152,7 +150,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan. Design by{' '}
+            &copy; 2020 Issaaf Kattan. Design by {''}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
