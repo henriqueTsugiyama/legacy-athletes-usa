@@ -153,38 +153,38 @@ export default {
             img: "img/team/christian.jpeg",
             name: "Christian Nicolas Barbieri De Peray",
             job: "Director Of Legacy USA ",
-            bio: { title:"Biography", text:"During my young age I played Futures tournaments trying to see if i could become a professional tennis player. When I turned 18 I decided that I was not meeting the goals that I should to become who I wanted to be. That moment was where I decided that college tennis could give me back from all the hard work that I have put in to make it as a professional tennis player. Fortunately I got a really good scholarship from William Woods University where I graduated majoring in accounting and finances." },
-            accomplishments:{ 
-                title: "Accomplishments", 
-                text: [
-                "2 times quarter finals in nationals",
-                "Best Ranking:  #4 In the nation",
-                "4 times first Singles all conference",
-                "3 times first Doubles all conference ",
-                "3 times All american",
-                "Awarded player of the year",
-                "3 times athletes of the year",
-                ]
-            },
+            // bio: { title:"Biography", text:"During my young age I played Futures tournaments trying to see if i could become a professional tennis player. When I turned 18 I decided that I was not meeting the goals that I should to become who I wanted to be. That moment was where I decided that college tennis could give me back from all the hard work that I have put in to make it as a professional tennis player. Fortunately I got a really good scholarship from William Woods University where I graduated majoring in accounting and finances." },
+            // accomplishments:{ 
+            //     title: "Accomplishments", 
+            //     text: [
+            //     "2 times quarter finals in nationals",
+            //     "Best Ranking:  #4 In the nation",
+            //     "4 times first Singles all conference",
+            //     "3 times first Doubles all conference ",
+            //     "3 times All american",
+            //     "Awarded player of the year",
+            //     "3 times athletes of the year",
+            //     ]
+            // },
         },
         { 
             img: "img/team/juan.jpeg",
             name: "Juan Esteban Durán Avellaneda",
             job: "Director of Marketing and Public Relations ",
-            bio: { title:"Biography", text: "I was a great athlete in many sports as a kid. I started tennis a little late in life. But working and training hard I became a competitive tennis player. Having the chance to play ITF’s and National tournaments. Traveling all around my country and playing at different countries as well. I knew about the opportunity to play college tennis in the US. And I set a personal goal to achieve my dream to play college tennis. I was very fortunate to arrive to one of the best tennis programs in the nation in NAIA ( William Woods University) with a great scholarship. Here I graduated from Business Administration and Marketing with honors." },
-            accomplishments:{
-                title: "Accomplishments", 
-                text: [
-                "3 Nationals appearances",
-                "2 quarter finals at Nationals",
-                "2 second team all conference",
-                "3 conference champions",
-                "Best team ranking: #4 in the nation ",
-                "2 Scholar- Athlete in the nation (Daktronics) ",
-                "4 Dean’s list",
-                ]
-            },
-        }, 
+        //     bio: { title:"Biography", text: "I was a great athlete in many sports as a kid. I started tennis a little late in life. But working and training hard I became a competitive tennis player. Having the chance to play ITF’s and National tournaments. Traveling all around my country and playing at different countries as well. I knew about the opportunity to play college tennis in the US. And I set a personal goal to achieve my dream to play college tennis. I was very fortunate to arrive to one of the best tennis programs in the nation in NAIA ( William Woods University) with a great scholarship. Here I graduated from Business Administration and Marketing with honors." },
+        //     accomplishments:{
+        //         title: "Accomplishments", 
+        //         text: [
+        //         "3 Nationals appearances",
+        //         "2 quarter finals at Nationals",
+        //         "2 second team all conference",
+        //         "3 conference champions",
+        //         "Best team ranking: #4 in the nation ",
+        //         "2 Scholar- Athlete in the nation (Daktronics) ",
+        //         "4 Dean’s list",
+        //         ]
+        //     },
+        },
         // {
         //     img: "img/team/03.jpg",
         //     name: "Jane Doe",

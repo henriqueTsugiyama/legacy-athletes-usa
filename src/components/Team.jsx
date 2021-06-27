@@ -17,12 +17,10 @@ export const Team = (props) => {
                     {' '}
                     <img src={d.img} alt='...' className='team-img' />
                     <div className='caption'>
-                      <div>
-                        <h4>{d.name}</h4>
-                        <p>{d.job}</p>
-                      </div>
-                      
-                      {langReducer.lang == 'en' &&
+                      <h4>{d.name}</h4>
+                      <p>{d.job}</p>
+                       
+                      {/* {langReducer.lang == 'en' &&
                       <>
                       <h4>{d.bio.title}</h4>
                       <p>{d.bio.text}</p>
@@ -34,7 +32,7 @@ export const Team = (props) => {
                         ))}
                       </ul>
                       </>
-                      }
+                      } */}
                       
                     </div>
                   </div>
