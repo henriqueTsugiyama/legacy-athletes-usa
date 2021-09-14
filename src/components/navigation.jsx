@@ -11,11 +11,6 @@ export const Navigation = (props) => {
   const dispatch = useDispatch();
   
 
-  useEffect(()=>{
-
-
-  }, [])
-  
   function handleToggle(){
     toggleSelected(!selected)
     
